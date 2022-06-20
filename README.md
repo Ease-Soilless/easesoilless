@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# EASE SOILLESS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+**TABLE OF CONTENT**
++ Description
++ Tech Stack
++ Why Used Web Stack?
++ Challenges Faced
++ Designs
++ Links
++ Deployment
++ Contributors
+---
 
-In the project directory, you can run:
 
-### `npm start`
+### **Description**
+**Ease Soilless** is an (agro-based) venture that offers sales of soilless farming kits and set-up for both personal and business purpose, thereby giving individuals who are interested in urban/smart farming the needed trainings and enlightening them on everything about soilless farming.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+---
+### **Tech Stack**
++ HTML
++ CSS
++ BOOTSRAP
++ SASS
++ JAVA SCRIPT
++ REACT
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### **Why Used Web Stack Used?**
++ Bootstrap helps making website layout easier and faster.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
++ CSS help add additional styles that couldn't be added using Bootstrap.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
++ Java Script helps in making the functionality of the page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
++ React helps configures  the application so that CSS files can be directly imported into the component JavaScript files.
 
-### `npm run eject`
++ SASS helps in storing styles that are imported into CSS.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
++ HTML used to structure set of information on a webpage.
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### **Challenges Faced**
++ Time
++ Internet
++ Poor power supply
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **Designs**
++ Desktop(image)
++ Mobile(image)
+---
 
-## Learn More
+### **Links**
+Workflow management-
+Designs-
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **Deployment**
+This Application is hosted on Vercel@
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **Contributors**
+  
++ Elizabeth Ogunkorode  
+ http://www.linkedin.com/in/elizabeth-ogunkorode-9b022921b                                 
+    https://github.com/ogunLizzy     
+    ogunkorodelilizzy@gmail.com
 
-### Code Splitting
++ Korode Okesanya      
+  http://www.linkedin.com/in/korode-okesanya-5b36091b8                      
+     https://github.com/korex23 
+     ololokes@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
++ Francis Oprah           
+http://www.linkedin.com/in/francis-ekene-opara-4225863b  
+   https://github.com/Stevekenzo
+   francisopara.e@gmail.com
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
