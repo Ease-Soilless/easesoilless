@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { MultipleCards } from "./components/cards";
+import { SignUpForm } from "./components/forms";
+import { Container } from "react-bootstrap";
+import { MultipleCards2 } from "./components/cards";
+import { MultipleCards3 } from "./components/cards";
+import { LoginForm } from "./components/forms";
+import { ContactForm } from "./components/forms";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+  return <div></div>;
+};
 
 export default App;
