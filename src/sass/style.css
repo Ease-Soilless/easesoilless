@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .navbar {
-  background-color: #ffffff !important;
+  background-color: #f8faf7;
 }
 
 /* Style the links inside the navigation bar */
@@ -20,7 +20,7 @@ navbar {
 
 /* Change the color of links on hover */
 .navbar-nav a:hover {
-  background-color: #FFA111;
+  background-color: #ffa111;
   color: #ffffff !important;
 }
 
@@ -42,7 +42,6 @@ svg {
 /* Style Link For Footer Starts */
 footer {
   background-color: #115504 !important;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -56,5 +55,16 @@ footer {
 
 .text-success {
   color: #115504 !important;
+}
+
+.nav-link {
+  color: #115504 !important;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.products {
+  background-image: url(../images/rectangle1.png);
+  margin-top: 100px;
 }
 /*# sourceMappingURL=style.css.map */

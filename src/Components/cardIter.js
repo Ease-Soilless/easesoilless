@@ -1,3 +1,4 @@
+import { BtnStyle1 } from "./Button";
 export const CardComponent = (props) => {
   const { image, title, price } = props;
   return (
@@ -7,10 +8,8 @@ export const CardComponent = (props) => {
         <div className="card-body">
           <h3 className="card-title">{title}</h3>
           <p className="card-text">{price}</p>
-          <div>
-            <a href="#!" className="btn btn-primary">
-              Add to Cart
-            </a>
+          <div className="">
+            <BtnStyle1 />
           </div>
         </div>
       </div>

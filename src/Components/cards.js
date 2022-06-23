@@ -14,7 +14,7 @@ export const MultipleCards = () => {
     <div className="row mx-3 g-3">
       {DataBase.products.map((product) => {
         return (
-          <div className="col-sm-12 col-md-6 col-lg-3">
+          <div className="col-sm-12 col-md-6 col-lg-3 mb-5">
             <CardComponent {...product}></CardComponent>
           </div>
         );

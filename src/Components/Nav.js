@@ -1,7 +1,7 @@
 import soilless from "../images/soilless.png";
 export const NavBar = () => {
   return (
-    <nav className="navbar navbar-green navig navbar-expand-lg fixed-top container">
+    <nav className="navbar navbar-green navig navbar-expand-lg fixed-top mx-3">
       <a href="#" className="navbar-brand ">
         <img src={soilless} />
       </a>
@@ -14,23 +14,23 @@ export const NavBar = () => {
       </button>
 
       <div className="collapse navbar-collapse" id="navigate">
-        <ul className="navbar-nav ms-auto">
-          <li className="navbar-item">
+        <ul className="navbar-nav ms-auto mx-5">
+          <li className="navbar-item mx-3">
             <a href="#" className="nav-link">
               Home
             </a>
           </li>
-          <li className="navbar-item">
+          <li className="navbar-item mx-3">
             <a href="#" className="nav-link">
               About
             </a>
           </li>
-          <li className="navbar-item">
+          <li className="navbar-item mx-3">
             <a href="#" className="nav-link">
               Contact
             </a>
           </li>
-          <li className="navbar-item">
+          <li className="navbar-item mx-3">
             <a href="#" className="nav-link">
               Product
             </a>

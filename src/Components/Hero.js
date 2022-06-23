@@ -2,22 +2,6 @@ import digital from "../images/soilless.png";
 export const HeroSection = () => {
   return (
     <header className="header">
-      <div className="overlay"></div>
-      <div className="headerhold">
-        <div className="logo">
-          <div>
-            <img src={digital} />
-          </div>
-        </div>
-
-        <div className="navgator">
-          <a href="#">Home</a>
-          <a href="About us.html">About</a>
-          <a href="Contact.html">Contact</a>
-          <a href="Product.html">Product</a>
-        </div>
-      </div>
-
       <section className="hero_s">
         <div className="content">
           <div className="herotext">

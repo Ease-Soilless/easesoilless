@@ -1,5 +1,7 @@
 import { Form, Button, Card, Alert } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { SignUpButton } from "./Button";
+import { LoginButton } from "./Button";
 
 export const SignUpForm = () => {
   return (
@@ -58,42 +60,13 @@ export const SignUpForm = () => {
           </div>
 
           <div className="d-grid gap-2">
-            <button className="btn btn-primary" type="button">
-              Sign Up
-            </button>
+            <SignUpButton />
           </div>
 
           <div className="text-center">
             <p>
               Already have an account <Link to="/Login">Sign in</Link>
             </p>
-            <button
-              type="button"
-              className="btn btn-primary btn-floating rounded-circle mx-1"
-            >
-              <i className="bi bi-facebook"></i>
-            </button>
-
-            <button
-              type="button"
-              className="btn btn-primary btn-floating rounded-circle mx-1"
-            >
-              <i className="bi bi-google"></i>
-            </button>
-
-            <button
-              type="button"
-              className="btn btn-primary btn-floating rounded-circle mx-1"
-            >
-              <i className="bi bi-twitter"></i>
-            </button>
-
-            <button
-              type="button"
-              className="btn btn-primary btn-floating rounded-circle mx-1"
-            >
-              <i className="bi bi-github"></i>
-            </button>
           </div>
         </form>
       </div>
@@ -155,46 +128,13 @@ export const LoginForm = () => {
         </div>
 
         <div className="d-grid gap-2">
-          <input
-            type="button"
-            value="Sign In"
-            className="btn"
-            id="signInButton"
-          />
+          <LoginButton />
         </div>
 
         <div className="text-center">
           <p>
             Not a member? <Link to="/SignUp">Register</Link>
           </p>
-          <p>or sign up with:</p>
-          <button
-            type="button"
-            className="btn btn-primary btn-floating mx-1 rounded-circle"
-          >
-            <i className="bi bi-facebook"></i>
-          </button>
-
-          <button
-            type="button"
-            className="btn btn-primary btn-floating mx-1 rounded-circle"
-          >
-            <i className="bi bi-google"></i>
-          </button>
-
-          <button
-            type="button"
-            className="btn btn-primary btn-floating mx-1 rounded-circle"
-          >
-            <i className="bi bi-twitter"></i>
-          </button>
-
-          <button
-            type="button"
-            className="btn btn-primary btn-floating mx-1 rounded-circle"
-          >
-            <i className="bi bi-github"></i>
-          </button>
         </div>
       </form>
     </div>
