@@ -1,4 +1,5 @@
 import digital from "../images/soilless.png";
+import { Link } from "react-router-dom";
 export const HeroSection = () => {
   return (
     <header className="header">
@@ -10,10 +11,10 @@ export const HeroSection = () => {
               <h1>Agriculture world</h1>
             </div>
             <div className="BtnStyle">
-              <a href="#">
+              <Link to={"/SignUp"}>
                 <span>Get Started</span>
                 <span>Get Started</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

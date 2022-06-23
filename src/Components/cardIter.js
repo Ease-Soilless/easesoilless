@@ -1,4 +1,6 @@
 import { BtnStyle1 } from "./Button";
+import { BtnStyle4 } from "./Button";
+
 export const CardComponent = (props) => {
   const { image, title, price } = props;
   return (
@@ -26,9 +28,7 @@ export const LearnersHubHome = (props) => {
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
           <p className="card-text">{text}</p>
-          <a href="#!" className="btn btn-primary">
-            Read More
-          </a>
+          <BtnStyle4 />
         </div>
       </div>
     </section>
