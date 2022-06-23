@@ -3,9 +3,9 @@
 // import img3 from "../images/image3.jpg";
 // import img4 from "../images/image4.jpg";
 import DataBase from "../DB.json";
-import { CardComponent } from "../components/cardIter";
-import { LearnersHubHome } from "../components/cardIter";
-import { LearnersHubPage } from "../components/cardIter";
+import { CardComponent } from "./cardIter";
+import { LearnersHubHome } from "./cardIter";
+import { LearnersHubPage } from "./cardIter";
 import image1 from "../images/image1.jpg";
 import image2 from "../images/image2.jpg";
 

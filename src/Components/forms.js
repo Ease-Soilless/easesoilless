@@ -1,9 +1,12 @@
 import { Form, Button, Card, Alert } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export const SignUpForm = () => {
   return (
     <section>
-      <div className="container">
+      <div className="container" style={{ marginTop: "100px" }}>
+        <h1 className="text-center">Ease-Soilless</h1>
+        <p className="text-center">Create a new account</p>
         <form className="w-75 mx-auto">
           <div className="row mb-4">
             <div className="col">
@@ -61,7 +64,9 @@ export const SignUpForm = () => {
           </div>
 
           <div className="text-center">
-            <p>or sign up with:</p>
+            <p>
+              Already have an account <Link to="/Login">Sign in</Link>
+            </p>
             <button
               type="button"
               className="btn btn-primary btn-floating rounded-circle mx-1"
@@ -98,8 +103,9 @@ export const SignUpForm = () => {
 
 export const LoginForm = () => {
   return (
-    <div className="container mt-5 mb-5">
-      <h1>Login Form</h1>
+    <div className="container" style={{ marginTop: "100px" }}>
+      <h1 className="text-center">Ease-Soilless</h1>
+      <p className="text-center">Log in to your account</p>
       <form
         className="w-75 mx-auto"
         name="loginForm"
@@ -159,7 +165,7 @@ export const LoginForm = () => {
 
         <div className="text-center">
           <p>
-            Not a member? <a href="#!">Register</a>
+            Not a member? <Link to="/SignUp">Register</Link>
           </p>
           <p>or sign up with:</p>
           <button
