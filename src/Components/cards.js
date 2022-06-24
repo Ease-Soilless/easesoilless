@@ -4,6 +4,7 @@
 // import img4 from "../images/image4.jpg";
 import DataBase from "../DB.json";
 import { CardComponent } from "./cardIter";
+import { CardComponents } from "./cardIter";
 import { LearnersHubHome } from "./cardIter";
 import { LearnersHubPage } from "./cardIter";
 import image1 from "../images/image1.jpg";
@@ -44,5 +45,19 @@ export const MultipleCards3 = () => {
         return <LearnersHubPage {...learn}></LearnersHubPage>;
       })}
     </section>
+  );
+};
+
+export const MultipleCards4 = () => {
+  return (
+    <div className="row mx-3 g-3">
+      {DataBase.products2.map((product) => {
+        return (
+          <div className="col-sm-12 col-md-6 col-lg-3 mb-5">
+            <CardComponents {...product}></CardComponents>
+          </div>
+        );
+      })}
+    </div>
   );
 };
