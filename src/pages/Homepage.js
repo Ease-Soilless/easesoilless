@@ -4,6 +4,7 @@ import { Footer } from "../components/Footer";
 import { HeroSection } from "../components/Hero";
 import { MultipleCards } from "../components/cards";
 import { MultipleCards2 } from "../components/cards";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
