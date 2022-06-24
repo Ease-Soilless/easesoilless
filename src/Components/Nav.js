@@ -2,7 +2,7 @@ import soilless from "../images/soilless.png";
 import { Link } from "react-router-dom";
 export const NavBar = () => {
   return (
-    <nav className="navbar navbar-green navig navbar-expand-lg fixed-top mx-3">
+    <nav className="navbar navbar-green navig navbar-expand-lg fixed-top ">
       <a href="#" className="navbar-brand ">
         <img src={soilless} />
       </a>
@@ -32,7 +32,7 @@ export const NavBar = () => {
             </Link>
           </li>
           <li className="navbar-item mx-3">
-            <Link to={"/Product"} className="nav-link">
+            <Link to={"/Products"} className="nav-link">
               Product
             </Link>
           </li>

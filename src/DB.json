@@ -1,25 +1,90 @@
 {
   "products": [
     {
-      "image": "../images/image1.jpg",
-      "title": "Product 1",
-      "price": 2000
+      "image": "../images/NFT.jpeg",
+      "title": "81 plant sites NFT(Nutrient Film Tecnique) Hydrophonic System",
+      "price": "350,000"
     },
 
     {
-      "image": "../images/image1.jpg",
-      "title": "Product 2",
-      "price": 2000
+      "image": "../images/NutrientFilm.jpeg",
+      "title": "72 holes a-frame Hydrophonics System",
+      "price": "300,000"
     },
     {
-      "image": "../images/image1.jpg",
-      "title": "Product 3",
-      "price": 2000
+      "image": "../images/A-frame.jpeg",
+      "title": "90 Plant Sites NFT Hydrophonics System",
+      "price": "200,000"
     },
     {
-      "image": "../images/image1.jpg",
-      "title": "Product 4",
-      "price": 2000
+      "image": "../images/Pump.jpg",
+      "title": "Water Pump",
+      "price": "47,000"
+    }
+  ],
+  "products2": [
+    {
+      "image": "../images/NFT.jpeg",
+      "title": "81 plant sites NFT(Nutrient Film Tecnique) Hydrophonic System",
+      "price": "350,000"
+    },
+
+    {
+      "image": "../images/NutrientFilm.jpeg",
+      "title": "72 holes a-frame Hydrophonics System",
+      "price": "300,000"
+    },
+    {
+      "image": "../images/A-frame.jpeg",
+      "title": "90 Plant Sites NFT Hydrophonics System",
+      "price": "200,000"
+    },
+    {
+      "image": "../images/Pump.jpg",
+      "title": "Water Pump",
+      "price": "47,000"
+    },
+    {
+      "image": "../images/Spray.jpeg",
+      "title": "36 inches SprayStake Dripper Tube Assembly ",
+      "price": "30,000"
+    },
+    {
+      "image": "../images/dripper.jpeg",
+      "title": "2.0 GPH Woodpecker PC  Dripper-Green",
+      "price": "200,000"
+    },
+
+    {
+      "image": "../images/drippergreen.jpeg",
+      "title": "2.0 GPH Woodpecker PC Jr. Dripper-Green",
+      "price": "300,000"
+    },
+    {
+      "image": "../images/stackablemanifold.jpeg",
+      "title": "4-way Stackable Manifold",
+      "price": "47,000"
+    },
+
+    {
+      "image": "../images/flatmanifold.jpeg",
+      "title": "Flat 4-way Manifold",
+      "price": "300,000"
+    },
+    {
+      "image": "../images/Siphon.jpeg",
+      "title": "HydroCycle Siphon Elbow",
+      "price": "200,000"
+    },
+    {
+      "image": "../images/MicroTube.jpeg",
+      "title": "1/8 inches SuperFlex UV White Polyethylene Micro-Tubing - 1000' Roll",
+      "price": "47,000"
+    },
+    {
+      "image": "../images/flowerpots.jpeg",
+      "title": "Flower Pot/Vases",
+      "price": "350,000"
     }
   ],
 

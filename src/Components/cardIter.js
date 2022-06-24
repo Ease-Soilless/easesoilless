@@ -5,12 +5,29 @@ export const CardComponent = (props) => {
   const { image, title, price } = props;
   return (
     <section>
-      <div className="card">
+      <div className="card " style={{ width: "320px", height: "595px" }}>
         <img src={image} className="card-img-top" alt="Fissure in Sandstone" />
         <div className="card-body">
           <h3 className="card-title">{title}</h3>
-          <p className="card-text">{price}</p>
-          <div className="">
+          <p className="card-text h4">{price}</p>
+          <div className="position-absolute bottom-0 start-50 translate-middle-x">
+            <BtnStyle1 />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+export const CardComponents = (props) => {
+  const { image, title, price } = props;
+  return (
+    <section>
+      <div className="card " style={{ width: "320px", height: "595px" }}>
+        <img src={image} className="card-img-top" alt="Fissure in Sandstone" />
+        <div className="card-body">
+          <h3 className="card-title">{title}</h3>
+          <p className="card-text h4">{price}</p>
+          <div className="position-absolute bottom-0 start-50 translate-middle-x">
             <BtnStyle1 />
           </div>
         </div>
